@@ -1,0 +1,209 @@
+﻿<Window x:Class="CAN.Task._5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CAN.Task._5"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Title="MainWindow" Height="450" Width="800"
+        AllowsTransparency="True"
+        ResizeMode="NoResize">
+    <Grid>
+        <Frame NavigationUIVisibility="Hidden"
+               x:Name="MainFrame"/>
+        <StackPanel HorizontalAlignment="Right"
+                        VerticalAlignment="Stretch">
+            <Button Background="Transparent"
+                        x:Name="BtnTask101"
+                        Click="BtnTask101_Click"
+                        Foreground="DarkSeaGreen" 
+                        Content="✕"
+                        BorderBrush="Transparent" Width="55" Height="45"  FontSize="28"/>
+        </StackPanel>
+        <StackPanel>
+            <ScrollViewer Name="scrol" CanContentScroll="True" Height="755" Width="125"
+                      HorizontalAlignment="Left" 
+                          Margin="330 20 0 0"
+                      Background="Transparent" Cursor="" RenderTransformOrigin="0.5,0.5">
+                <ScrollViewer.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ScrollViewer.RenderTransform>
+                <StackPanel Cursor="">
+                    <Button x:Name="BtnTask0"
+                                Content="Home" Click="BtnTask0_Click" Width="90" Height="40" FontSize="20" Margin="0,30,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask1"
+                                Content="1" Click="BtnTask1_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask2"
+                                Content="2" Click="BtnTask2_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask3"
+                                Content="3" Click="BtnTask3_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask4"
+                                Content="4" Click="BtnTask4_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask5"
+                                Content="5" Click="BtnTask5_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask6"
+                                Content="6" Click="BtnTask6_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple" RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask7"
+                                Content="7" Click="BtnTask7_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask8"
+                                Content="8" Click="BtnTask8_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask9"
+                                Content="9" Click="BtnTask9_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask10"
+                                Content="10" Click="BtnTask10_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask11"
+                                Content="11" Click="BtnTask11_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask12"
+                                Content="12" Click="BtnTask12_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask13"
+                                Content="13" Click="BtnTask13_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button x:Name="BtnTask14"
+                                Content="14" Click="BtnTask14_Click" Width="90" Height="40" FontSize="20" Margin="0,60,0,10" Foreground="DarkSeaGreen" BorderBrush="White" Background="MediumPurple"  RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="90"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,60 @@
+﻿<Page x:Class="CAN.Task._5.View.Pages.TaskPages.Task5Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CAN.Task._5.View.Pages.TaskPages" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Task5Page">
+
+    <Border>
+        <Grid>
+            <Image Source="/Images/task5.jpg"
+                   Stretch="UniformToFill"/>
+            <Border HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Width="480"
+                    Height="200"
+                    Margin="0,100,150,0"
+                    Background="{DynamicResource AttentionToActionBrush}"
+                    CornerRadius="15"
+                    Effect="{StaticResource MaterialDesignElevationShadow16}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*" />
+                        <RowDefinition Height="1.3*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="/Images/5.png"
+                   Stretch="UniformToFill" Margin="10,20,6,118" Grid.RowSpan="2"/>
+
+                    <StackPanel Grid.Row="1"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center" Height="76" Width="140">
+                        <StackPanel Orientation="Horizontal" Width="75">
+                            <TextBlock Text="A = "
+                                       Foreground="DarkSeaGreen"
+                                       VerticalAlignment="Center" Width="35" Height="25" FontSize="20" TextAlignment="Center"/>
+                            <TextBox Width="30"
+                                     x:Name="TbA"
+                                     Foreground="DarkSeaGreen" BorderBrush="Black" BorderThickness="3,3,3,3"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0 10 0 0"/>
+
+                        <Button Margin="3,3,3,3"
+                                Background="MediumPurple"
+                                x:Name="BtnTask5"
+                                Click="BtnTask5_Click"
+                                Foreground="DarkSeaGreen" BorderBrush="White" Width="50" Height="32">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Page>
